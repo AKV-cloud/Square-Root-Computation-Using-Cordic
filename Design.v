@@ -14,7 +14,7 @@ module cordic_division(
   
   parameter width=16;
   
-  //----------- Scaling x ------- //
+  //----------- Scaling x ------- / /
   wire signed [15:0] X_scaled;
   wire [2:0] k;
   wire scale_valid, shift_sig; // shift signal from scale module
